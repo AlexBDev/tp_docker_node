@@ -2,7 +2,7 @@
 
 ## How to run
 
-## Pre require
+## Pre required
 
 - docker >= 17.03.1-ce
 - docker-compose >= 1.13.0
