@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-APP_DIR='/app'
+APP_DIR="/app"
+KEYSTONE_DIR="${APP_DIR}/keystone-starter"
 
-cd $APP_DIR
+cd ${APP_DIR}
 
-
-if ! [ "$(ls -A ${APP_DIR})" ]; then
+if [ ! -d "${KEYSTONE_DIR}" ]; then
     yo keystone auto
 fi
 
-cd keystone-starter
+cd ${KEYSTONE_DIR}
 npm start
