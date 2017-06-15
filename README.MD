@@ -12,7 +12,7 @@
 You need to replace 'cloudinary://THIS_IS_FAKE_TOKENBt5A@dpuh3vssk' in docker-compose.yml with a valid api key from https://cloudinary.com
 
 - `docker-compose up -d`
-- Wait for project setup follow the progression with `docker-compose logs -f`
+- Wait for project setup follow the progression with `docker-compose logs -f node`
 - When you see 'keystone-starter is ready on http://0.0.0.0:3000' go to http://localhost:3000
 
 ## Problems ? 
