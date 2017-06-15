@@ -12,6 +12,7 @@ services:
             - "3000:3000"
         volumes:
             - ./app:/app
+            - npm-cache:/home/node/.npm
         links:
             - mongo
         depends_on:
@@ -23,3 +24,4 @@ services:
 
 volumes:
     mongo-data:
+    npm-cache:
